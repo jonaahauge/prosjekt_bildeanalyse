@@ -8,7 +8,7 @@ def main():
         epochs=100,
         imgsz=640,
         batch=16,
-        name="animals_v1",    
+        name="animals_v2",    
     )
     print(results.save_dir)
 
