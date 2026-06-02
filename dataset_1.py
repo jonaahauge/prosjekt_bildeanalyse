@@ -4,10 +4,10 @@ def main():
     model = YOLO("yolo26n.pt")
 
     results = model.train(
-        data="data.yaml",
+        data="data_1.yaml",
         epochs=100,
         imgsz=640,
-        batch=10,
+        batch=48,
         seed=10,
         deterministic=True,
         name="animals_dataset_1",    
