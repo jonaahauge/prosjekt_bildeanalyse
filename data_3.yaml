@@ -1,0 +1,30 @@
+# dataset root folder
+path: ./data/post/3
+
+# image folder
+train: images/train
+val: images/val
+test: imeges/test
+
+# class idex and name
+names:
+  0: Brown bear
+  1: Canary
+  2: Cheetah
+  3: Crocodile
+  4: Elephant
+  5: Fox
+  6: Goat
+  7: Goldfish
+  8: Kangaroo
+  9: Leopard
+  10: Mouse
+  11: Ostrich
+  12: Panda
+  13: Pig
+  14: Rabbit
+  15: Raccoon
+  16: Rhinoceros
+  17: Sheep
+  18: Woodpecker
+  19: Zebra

@@ -1,5 +1,5 @@
 # dataset root folder
-path: ./data/post
+path: ./data/post/2
 
 # image folder
 train: images/train
