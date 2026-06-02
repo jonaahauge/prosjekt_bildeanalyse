@@ -7,10 +7,10 @@ def main():
         data="data.yaml",
         epochs=100,
         imgsz=640,
-        batch=16,
+        batch=10,
         seed=10,
         deterministic=True,
-        name="animals_v2",    
+        name="animals_dataset_1",    
     )
     print(results.save_dir)
 
