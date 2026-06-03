@@ -1,8 +1,10 @@
 from ultralytics import YOLO
 
 if __name__ == "__main__":
+    ### loading of pretrained model
     model = YOLO("yolo26s.pt")
 
+    ### executing model traning with selected settings
     results = model.train(
         data="data_1.yaml",
         epochs=100,
