@@ -7,7 +7,7 @@ if __name__ == "__main__":
         data="data_3.yaml",
         epochs=100,
         imgsz=640,
-        batch=48,
+        batch=32,
         seed=30,
         deterministic=True,
         name="animals_dataset_3",    
