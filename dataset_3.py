@@ -8,7 +8,7 @@ if __name__ == "__main__":
         epochs=100,
         imgsz=640,
         batch=32,
-        seed=30,
+        seed=45,
         deterministic=True,
         name="animals_dataset_3",    
     )
