@@ -1,5 +1,2 @@
 # Ignore .venv
 .venv
-
-# Ignore dataset
-/data
